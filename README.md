@@ -1,0 +1,3 @@
+# Unexpected Variable Modification via Pointer
+This repository demonstrates a common error in C programming: unexpected variable modification through pointer dereferencing. The `bug.c` file contains the erroneous code, while `bugSolution.c` provides the corrected version.
+The bug arises from direct manipulation of a variable's value using a pointer without proper precautions. This can lead to unexpected behavior and program errors. The solution addresses this problem by implementing good practices in pointer management.
